@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar */
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+/* brand logo on navbar */
+#logo{
+    width: 150px;
+    height: 30px;
+    margin: 20px 50px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.navlinks{
+    padding-right: 70px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    padding: 2px 5px;
+    color: white;
+}
+.icon:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.navicons{
+    padding-right: 50px;
+}
+.navicons button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+.navbtn{
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.navbtn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* main body */
+.mainelement{
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.one{
+    background-image: url(assets/first_model3.avif);
+}
+.two{
+    background-image: url(assets/second_modelY.avif);
+}
+.three{
+    background-image: url(assets/third_modelX.avif);
+}
+.four{
+    background-image: url(assets/forth_modelS.avif);
+}
+.five{
+    background-image: url(assets/fifth_cybertruck.avif);
+}
+.six{
+    background-image: url(assets/sixth_SolarPanels-01-Desktop.avif);
+}
+.seven{
+    background-image: url(assets/seventh_SolarRoof-Desktop-US.avif);
+}
+.eight{
+    background-image: url(assets/eighth_Powerwall-Desktop-US.avif);
+}
+.nine{
+    background-image: url(assets/nineth_Accessories-Desktop-US.avif);
+}
+.elements{
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 30%;
+}
+.elements h1{
+    font-size: 60px;
+}
+.elements a{
+    color: white;
+    font-size: 31px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.elements h4{
+    padding: 10px 0;
+}
+.mainlinks{
+    position: absolute;
+    bottom: 5%;
+    left: 31%;
+}
+.mainlinks a{
+    padding: 10px 90px;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.firstlink{
+    background-color: rgb(62,106,225);
+    color: white;
+}
+.secondlink{
+    background-color: white;
+    color: black;
+}
+.three .elements{
+    left: 35%;
+}
+.four .elements{
+    left: 35%;
+}
+.five .mainlinks .firstlink{
+    background-color: rgb(15,16,16,0.9);
+    border-radius: 0;
+    color: rgb(130,132,135);
+    border-top: 2px solid rgb(130,132,135);
+}
+.five .mainlinks .firstlink:hover{
+    background-color: rgb(21,24,29,0.9);
+}
+.five .mainlinks .secondlink{
+    background-color: rgb(15,16,16,0.9);
+    border-radius: 0;
+    color: rgb(130,132,135);
+    border: 1px solid rgb(130,132,135);
+}
+.five .mainlinks .secondlink:hover{
+    background-color: rgb(21,24,29,0.9);
+}
+.six .elements{
+    left: 36%;
+}
+.seven .elements{
+    left: 40%;
+}
+.eight .elements{
+    left: 41%;
+}
+.nine .elements{
+    left: 39%;
+}
+.nine .mainlinks .firstlink{
+    margin-left: 180px;   
+}
+/* section */
+section{
+    background-color: black;
+}
+.sectionelements{
+    padding: 50px 30%;
+    text-align: center;
+    font-size: 13px;
+}
+.sectionelements p{
+    padding-bottom: 10px;
+    line-height: 1.7;
+}
+.sectionelements a{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+.footerlinks{
+    padding: 0 30% 30px;
+}
+.footerlinks a{
+    margin: 5px;
+    color: white;
+    font-size: 14px;
+}
